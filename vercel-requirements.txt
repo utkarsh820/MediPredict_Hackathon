@@ -1,7 +1,0 @@
-# Ultra minimal requirements for Vercel deployment
-pandas==1.5.3
-numpy==1.23.5
-scikit-learn==1.2.2
-joblib==1.2.0
-flask==2.0.3
-catboost==1.1.1
