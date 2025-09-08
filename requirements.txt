@@ -27,5 +27,5 @@ dill>=0.3.6
 # API
 flask
 
-# install it as package on system
--e .
+# install it as package on system without -e for Vercel compatibility
+.
