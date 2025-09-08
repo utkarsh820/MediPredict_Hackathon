@@ -3,7 +3,7 @@ from typing import List
 
 def read_requirements(file_path: str) -> List[str]:
     with open(file_path, 'r') as file:
-        return [line.strip() for line in file if line.strip() and not line.startswith('#') and not line.startswith('-e')]
+        return [line.strip() for line in file if line.strip() and not line.startswith('#') and not line.startswith('-e') and not line.strip() == '.']
 
 setup(
     name='MediPredict',
@@ -14,5 +14,5 @@ setup(
     description='The primary goal is to build a robust classification model that can assist in early and accurate disease identification.',
     license='MIT',
     keywords='medical prediction',
-    url='https://github.com/yourusername/MediPredict',
+    url='https://github.com/utkarsh820/MediPredict_Hackathon.git',
 )
