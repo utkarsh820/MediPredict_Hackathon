@@ -1,0 +1,29 @@
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  training_file: Training.csv
+  testing_file: Testing.csv
+  cleaned_file: cleaned_data.csv
+
+models:
+  output_dir: models
+  xgb:
+    n_estimators: 200
+    learning_rate: 0.05
+    max_depth: 5
+    subsample: 0.8
+    colsample_bytree: 0.8
+  lgb:
+    n_estimators: 200
+    learning_rate: 0.05
+    max_depth: -1
+    subsample: 0.8
+    colsample_bytree: 0.8
+  cat:
+    iterations: 200
+    learning_rate: 0.05
+    depth: 6
+
+training:
+  test_size: 0.2
+  random_state: 42
