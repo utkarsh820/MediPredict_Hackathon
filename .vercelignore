@@ -10,3 +10,11 @@ ENV/
 Notebooks/
 reports/
 logs/
+models/xgb_disease_model.pkl
+models/lgb_disease_model.pkl
+data/raw/
+examples/
+artifacts/
+config/
+tests/
+*.ipynb
